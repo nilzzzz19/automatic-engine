@@ -16,7 +16,9 @@ jobs:
         java-version: '17'
 
     - name: Build Docker Image
-      run: docker build -t ./actions/actions .
+      run: |
+          cd ./actions
+          docker build -t actions .
 
     # Optional: Run tests within the Docker container
     - name: Run Tests in Docker
