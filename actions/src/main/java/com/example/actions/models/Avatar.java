@@ -4,7 +4,7 @@ import java.util.Random;
 
 public class Avatar {
 	
-	private static final String[] greetings= {"Hi","Hello","Namastey"}; 
+   public  static final String[] greetings= {"Hi","Hello","Namastey"}; 
 	private final Random r = new Random();
 	private String name;
 
